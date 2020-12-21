@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to My Movie Memoir"
+        android:textSize="20dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/username"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:maxLines="1"
+        android:layout_marginTop="100dp"
+        app:startIconDrawable="@drawable/email"
+        app:startIconContentDescription="email"
+        android:drawablePadding="6dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/u"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+
+        android:maxLines="1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="16sp"
+        app:startIconDrawable="@drawable/psw"
+        app:startIconContentDescription="email"
+        android:drawablePadding="6dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_btn1"
+        android:text="@string/signIn"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/signIn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn1"
+        android:text="@string/signUp"
+        android:textColor="#fff"/>
+</RelativeLayout>

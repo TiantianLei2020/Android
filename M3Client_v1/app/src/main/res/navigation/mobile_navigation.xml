@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    >
+    <fragment
+        android:id="@+id/homepage"
+        android:name="com.tian.m3client_v1.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_home" />
+    <fragment
+        android:id="@+id/movieSearch"
+        android:name="com.tian.m3client_v1.fragment.MovieSearchFragment"
+        android:label="@string/menu_movieSearch"
+        tools:layout="@layout/moviesearch_fragment" />
+    <fragment
+        android:id="@+id/watchList"
+        android:name="com.tian.m3client_v1.fragment.WatchListFragment"
+        android:label="@string/menu_watchList"
+        tools:layout="@layout/watchlist_fragment" />
+    <fragment
+        android:id="@+id/report"
+        android:name="com.tian.m3client_v1.fragment.ReportFragment"
+        tools:layout="@layout/report_fragment"
+        android:label="@string/menu_report" />
+    <fragment
+        android:id="@+id/map"
+        android:name="com.tian.m3client_v1.fragment.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/map_fragment" />
+
+
+</navigation>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    tools:context=".fragment.ReportFragment">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="50dp"
+        android:text="@string/sore"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp" />
+    <Spinner
+        android:id="@+id/sore"
+        android:entries="@array/sore_array"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/tv"
+        android:layout_toEndOf="@+id/tv" />
+
+    <ListView
+        android:id="@+id/memoirListView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_below="@+id/sore"
+        android:layout_marginTop="20dp"
+        tools:ignore="NestedScrolling" />
+
+</RelativeLayout>
+

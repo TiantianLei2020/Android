@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/movieName"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="@string/movieName"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/movieDate"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="@string/movieDate"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/movieRating"
+        android:layout_width="0px"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="@string/movieRating"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

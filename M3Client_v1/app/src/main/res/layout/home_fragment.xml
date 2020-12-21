@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        tools:context=".fragment.HomeFragment">
+        <ImageButton
+            android:id="@+id/bt_pre"
+            android:layout_width="20dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="33dp"
+            android:src="@drawable/ic_chevron_left_black_24dp"/>
+        <ImageSwitcher
+            android:id="@+id/home_pics"
+            android:layout_width="330dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+        <ImageButton
+            android:id="@+id/bt_next"
+            android:layout_width="20dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="33dp"
+            android:layout_toRightOf="@+id/home_pics"
+            android:src="@drawable/ic_chevron_right_black_24dp"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="220dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/welcome"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/text_title"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:id="@+id/current_date"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="15sp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:id="@+id/tvNoData"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/current_date"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textSize="20sp"
+            android:fontFamily="casual"/>
+
+        <ListView
+            android:id="@+id/memoirList"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@+id/current_date"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            tools:ignore="NestedScrolling" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

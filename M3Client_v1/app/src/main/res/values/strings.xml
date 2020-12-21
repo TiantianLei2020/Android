@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">My Movie Memoir</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_movieSearch">Movie Search</string>
+    <string name="menu_watchList">Watch List</string>
+    <string name="menu_report">Reports</string>
+    <string name="menu_map">Map</string>
+
+    <!-- Strings related to navigation -->
+    <string name="menu_search">Movie Search</string>
+    <string name="menu_memoir">Movie Memoir</string>
+    <string name="menu_watchlist">Watch List</string>
+    <string name="menu_reports">Reports</string>
+    <string name="menu_maps">Maps</string>
+    <string name="menu_login">Sign out</string>
+    <string name="movieview">Movie View</string>
+
+    <!-- Strings related to login -->
+    <string name="username">Email</string>
+    <string name="password">Password</string>
+    <string name="passwordConfrim">Confirm your password</string>
+    <string name="welcome">Welcome to My Movie Memoir</string>
+    <string name="signUp">Sign up</string>
+    <string name="signIn">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings related to Sign up -->
+    <string name="tvSignUp">Please enter your detail: </string>
+    <string name="tvFirstName">First Name</string>
+    <string name="tvSurname">Surname</string>
+    <string name="tvGender">Gender: </string>
+    <string name="tvMale">Male</string>
+    <string name="tvFemale">Female</string>
+    <string name="tvBirth">Date of Birthday:</string>
+    <string name="tvAdd">Address: </string>
+    <string name="tvSN">Street Number</string>
+    <string name="tvSName">Street Name</string>
+    <string name="tvPostcode">Postcode</string>
+    <string name="tvState">State: </string>
+    <string name="tvSubmit">Submit</string>
+    <string name="tvReturn">Return to sign in</string>
+
+    <!-- Strings related to Home page -->
+    <string name="movieName">Movie Name</string>
+    <string name="movieDate">Movie Release Date</string>
+    <string name="movieRating">Rating</string>
+    <string name="tvList">My movie memoirs</string>
+    <string name="noData">No memoir records</string>
+
+    <!-- Strings related to Search page -->
+    <string name="movieSearch">Search movie</string>
+
+    <!-- Strings related to Movie view -->
+    <string name="playVedio">Play</string>
+    <string name="addWatchBtn">add to watchlist</string>
+    <string name="addMemBtn">add to memoirlist</string>
+
+    <!-- Strings related to add memoir -->
+    <string name="welcomeMemoir">Add a new memoir</string>
+    <string name="watch">Watched Date: </string>
+    <string name="comments">Comments: </string>
+    <string name="sore">sort:</string>
+
+    <string-array name="year_array">
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+
+    </string-array>
+
+    <!-- State Array -->
+    <string-array name="state_array">
+        <item>Australian Capital Territory</item>
+        <item>New South Wales</item>
+        <item>Northern Territory</item>
+        <item>Queensland</item>
+        <item>South Australia</item>
+        <item>Tasmania</item>
+        <item>Victoria</item>
+        <item>Western Australia</item>
+    </string-array>
+
+    <!-- State Array -->
+    <string-array name="sore_array">
+        <item>User Rating</item>
+        <item>Watched Rating</item>
+        <item>Release Date</item>
+    </string-array>
+
+    <string name="to">TO: </string>
+    <string name="from">FROM: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="image">IMAGE</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="pie_chart">Pie Chart</string>
+    <string name="defaultStart">2019-01-01</string>
+    <string name="defaultEnd">2020-01-01</string>
+    <string name="add_cinema">Add cinema:</string>
+    <string name="cinema_name">Cinema Name</string>
+    <string name="cinema_postcode">Cinema Postcode</string>
+    <string name="cinema">Cinema:</string>
+    <string name="add">ADD</string>
+
+
+</resources>
